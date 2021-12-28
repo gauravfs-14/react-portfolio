@@ -9,7 +9,7 @@ function Contact() {
         <h2 className="center hover-color">Reach to me from here!</h2>
       </div>
       <div className="contact-form">
-        <form action="">
+        <form action="" netlify>
           <input type="text" placeholder="Name" />
           <input type="text" placeholder="Email" />
           <textarea
