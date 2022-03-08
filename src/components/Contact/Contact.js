@@ -9,7 +9,7 @@ function Contact() {
         <h2 className="center hover-color">Reach to me from here!</h2>
       </div>
       <div className="contact-form">
-        <form name="contact" method="POST" action="/">
+        <form name="contact" method="POST">
           <input type="hidden" name="form-name" value="contact" />
           <input type="text" placeholder="Name" name="name" />
           <input type="text" placeholder="Email" name="email" />
