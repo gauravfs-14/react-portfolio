@@ -3,7 +3,6 @@ import "../Home/home.css";
 import Typewriter from "typewriter-effect";
 import profile from "../img/profile.jpg";
 import glass from "../img/glass.jpg";
-import gs_web from "../img/gs-web.png";
 import gym_web from "../img/gym-web.png";
 import john from "../img/john.jpg";
 import john2 from "../img/john2.jpg";
@@ -17,6 +16,9 @@ import yt from "../img/yt.jpg";
 import fb from "../img/fb.jpg";
 import insta from "../img/insta.jpg";
 import Works from "../Works/Works";
+import new_react from "../img/news_react.png";
+import weather_react from "../img/weather_react.png";
+import img_react from "../img/image_react.png";
 
 function Home(props) {
   return (
@@ -63,20 +65,86 @@ function Home(props) {
       <div className="section-2">
         <h1 className="center">Some Works of {props.fname}</h1>
         <div className="img">
-          <Works links={john} text="HTML, CSS, JavaScript" />
-          <Works links={fb} text="React.Js Clone" />
-          <Works links={glass} text="Glassmorphism in CSS" />
-          <Works links={gs_web} text="Tailwind CSS" />
-          <Works links={portfolio} text="HTML, CSS, JavaScript" />
-          <Works links={twitter} text="React.Js Clone" />
-          <Works links={gym_web} text="Tailwind CSS" />
-          <Works links={john2} text="HTML, CSS, JavaScript" />
-          <Works links={js_clock} text="JavaScript Project" />
-          <Works links={npl_web} text="HTML, CSS, JavaScript" />
-          <Works links={rps_game} text="JavaScript Project" />
-          <Works links={yt} text="React.Js Clone" />
-          <Works links={insta} text="React.Js Clone" />
-          <Works links={text} text="React.Js and Bootstrap" />
+          <Works
+            links={john}
+            text="HTML, CSS, JavaScript"
+            github="https://github.com/gauravfs-14/animated-portfolio-homepage-with-darkmode-toggle"
+          />
+          <Works
+            links={fb}
+            text="React.Js Clone"
+            github="https://github.com/gauravfs-14/facebook_clone"
+          />
+          <Works
+            links={glass}
+            text="Glassmorphism in CSS"
+            github="https://github.com/gauravfs-14/glassmorphism-design"
+          />
+          <Works
+            links={portfolio}
+            text="HTML, CSS, JavaScript"
+            github="https://github.com/gauravfs-14/full-portfolio-tutorial"
+          />
+          <Works
+            links={twitter}
+            text="React.Js Clone"
+            github="https://github.com/gauravfs-14/twitter_clone"
+          />
+          <Works
+            links={gym_web}
+            text="Tailwind CSS"
+            github="https://github.com/gauravfs-14/fit-wet"
+          />
+          <Works
+            links={john2}
+            text="HTML, CSS, JavaScript"
+            github="https://github.com/gauravfs-14/gaurabchhetri"
+          />
+          <Works
+            links={js_clock}
+            text="JavaScript Project"
+            github="https://github.com/gauravfs-14/JS-Clock"
+          />
+          <Works
+            links={npl_web}
+            text="HTML, CSS, JavaScript"
+            github="https://github.com/gauravfs-14/Nepal-Website"
+          />
+          <Works
+            links={rps_game}
+            text="JavaScript Project"
+            github="https://github.com/gauravfs-14/rock-paper-scissors-game"
+          />
+          <Works
+            links={yt}
+            text="React.Js Clone"
+            github="https://github.com/gauravfs-14/youtube_clone"
+          />
+          <Works
+            links={insta}
+            text="React.Js Clone"
+            github="https://github.com/gauravfs-14/instagram_clone"
+          />
+          <Works
+            links={text}
+            text="React.Js and Bootstrap"
+            github="https://github.com/gauravfs-14/text-utils"
+          />
+          <Works
+            links={new_react}
+            text="React.Js with API"
+            github="https://github.com/gauravfs-14/react-news-app"
+          />
+          <Works
+            links={weather_react}
+            text="React.Js with API"
+            github="https://github.com/gauravfs-14/react_weather_app"
+          />
+          <Works
+            links={img_react}
+            text="React.Js with API"
+            github="https://github.com/gauravfs-14/react_image_gallary_pixabay_api"
+          />
         </div>
       </div>
     </>
