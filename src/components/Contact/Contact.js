@@ -9,16 +9,15 @@ function Contact() {
         <h2 className="center hover-color">Reach to me from here!</h2>
       </div>
       <div className="contact-form">
-        <form netlify>
+        <form name="contact" method="POST" data-netlify="true" netlify>
           <input type="text" placeholder="Name" name="name" />
-          <input type="text" placeholder="Email" name = "email"/>
+          <input type="text" placeholder="Email" name="email" />
           <textarea
-            name=""
             id=""
             cols="30"
             rows="10"
-            placeholder="Message"
-    name= "message"
+            placeholder="Your Message Here..."
+            name="message"
           ></textarea>
           <button type="submit">Submit</button>
         </form>
