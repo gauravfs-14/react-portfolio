@@ -50,6 +50,16 @@ function Navbar(props) {
                 Contact
               </NavLink>
             </li>
+            <li>
+              <a
+                href="https://www.computenepal.com"
+                className="center btn-home"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
         <div className="burger">

@@ -4,6 +4,10 @@
   --hover-text-navbar: #61dafb;
   --bg-search: #353b45;
   --bg-search-focus: #555e69;
+  --bg-main: #20232a;
+  --main-text: #ffffff;
+  --hover-text: #61dafb;
+  --section-bg: #282c34;
 }
 nav {
   position: relative;
@@ -14,7 +18,7 @@ nav {
   height: 60px;
   justify-content: space-between;
   color: var(--main-text-navbar);
-padding: 0 5%;
+  padding: 0 5%;
   line-height: 60px;
   position: sticky;
   top: 0;
@@ -39,7 +43,7 @@ padding: 0 5%;
 .links ul li a {
   text-decoration: none;
   color: var(--main-text-navbar);
-  font-weight: 100;
+  font-weight: 300;
   font-size: 20px;
   justify-content: space-around;
   transition: ease-in-out all 0.2s;
@@ -47,6 +51,22 @@ padding: 0 5%;
 .links ul li a:hover {
   color: var(--hover-text-navbar);
   transition: ease-in-out all 0.2s;
+}
+.links ul li:last-child a {
+  background-color: var(--hover-text);
+  color: var(--bg-main);
+  border: 3px solid var(--hover-text);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.6s ease;
+  font-size: 1rem;
+  padding: 5px 30px;
+  font-weight: 500;
+}
+.links ul li:last-child a:hover {
+  color: var(--main-text);
+  background-color: transparent;
+  transition: all 0.6s ease;
 }
 .burger {
   display: none;

@@ -1,22 +1,22 @@
 import React from "react";
 import "../Home/home.css";
 import Typewriter from "typewriter-effect";
-import profile from "../img/profile.jpg"
-import glass from "../img/glass.jpg"
-import gs_web from "../img/gs-web.png"
-import gym_web from "../img/gym-web.png"
-import john from "../img/john.jpg"
-import john2 from "../img/john2.jpg"
-import js_clock from "../img/js-clock.png"
-import npl_web from "../img/npl-web.png"
-import portfolio from "../img/portfolio.png"
-import rps_game from "../img/rps-game.png"
-import text from "../img/text.jpg"
-import twitter from "../img/twitter.jpg"
-import yt from "../img/yt.jpg"
-import fb from "../img/fb.jpg"
-import insta from "../img/insta.jpg"
-
+import profile from "../img/profile.jpg";
+import glass from "../img/glass.jpg";
+import gs_web from "../img/gs-web.png";
+import gym_web from "../img/gym-web.png";
+import john from "../img/john.jpg";
+import john2 from "../img/john2.jpg";
+import js_clock from "../img/js-clock.png";
+import npl_web from "../img/npl-web.png";
+import portfolio from "../img/portfolio.png";
+import rps_game from "../img/rps-game.png";
+import text from "../img/text.jpg";
+import twitter from "../img/twitter.jpg";
+import yt from "../img/yt.jpg";
+import fb from "../img/fb.jpg";
+import insta from "../img/insta.jpg";
+import Works from "../Works/Works";
 
 function Home(props) {
   return (
@@ -61,109 +61,23 @@ function Home(props) {
         </div>
       </div>
       <div className="section-2">
-      <h1 className="center">
-          Some Works of {props.fname}
-        </h1>
-<div className="img">
-        
-        <div className="container">
-  <img src={glass} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">Glassmorphism</div>
-  </div>
-</div>
-
-<div className="container">
-  <img src={gs_web} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">Tailwind CSS</div>
-  </div>
-          </div>
-          
-          <div className="container">
-  <img src={gym_web} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">Tailwind CSS</div>
-  </div>
-          </div>
-          
-          <div className="container">
-  <img src={john} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-  </div>
-          </div>
-          
-          <div className="container">
-  <img src={john2} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-  </div>
-          </div>
-          
-          <div className="container">
-  <img src={js_clock} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-            </div>
-          </div>
-          
-          <div className="container">
-  <img src={npl_web} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-            </div>
-          </div> 
-
-          <div className="container">
-  <img src={portfolio} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-            </div>
-          </div>
-
-          <div className="container">
-  <img src={rps_game} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">HTML, CSS, JavaScript</div>
-            </div>
-          </div>
-          <div className="container">
-  <img src={yt} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">React.Js Clone</div>
-            </div>
-          </div>
-
-          <div className="container">
-  <img src={insta} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">React.Js Clone</div>
-            </div>
-          </div>
-
-          <div className="container">
-  <img src={fb} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">React.Js Clone</div>
-            </div>
-          </div>
-
-          <div className="container">
-  <img src={twitter} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">React.Js Clone</div>
-            </div>
-          </div>
-
-          <div className="container">
-  <img src={text} alt="" className="image"></img>
-  <div className="overlay">
-    <div className="text">React.Js and Bootstrap</div>
-            </div>
-          </div>
-
-</div>
+        <h1 className="center">Some Works of {props.fname}</h1>
+        <div className="img">
+          <Works links={john} text="HTML, CSS, JavaScript" />
+          <Works links={fb} text="React.Js Clone" />
+          <Works links={glass} text="Glassmorphism in CSS" />
+          <Works links={gs_web} text="Tailwind CSS" />
+          <Works links={portfolio} text="HTML, CSS, JavaScript" />
+          <Works links={twitter} text="React.Js Clone" />
+          <Works links={gym_web} text="Tailwind CSS" />
+          <Works links={john2} text="HTML, CSS, JavaScript" />
+          <Works links={js_clock} text="JavaScript Project" />
+          <Works links={npl_web} text="HTML, CSS, JavaScript" />
+          <Works links={rps_game} text="JavaScript Project" />
+          <Works links={yt} text="React.Js Clone" />
+          <Works links={insta} text="React.Js Clone" />
+          <Works links={text} text="React.Js and Bootstrap" />
+        </div>
       </div>
     </>
   );
