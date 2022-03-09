@@ -1,9 +1,11 @@
 import React from "react";
 import Card from "../About/Card";
+import DocumentMeta from "react-document-meta";
 
 function Services(props) {
   return (
     <>
+      <DocumentMeta title="Services by Gaurab Chhetri - Web Developer" />
       <div className="header">
         <h1 className="center">Services</h1>
         <h2 className="center hover-color">

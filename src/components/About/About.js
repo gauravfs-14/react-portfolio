@@ -1,10 +1,12 @@
 import React from "react";
 import "./about.css";
 import Card from "./Card";
+import DocumentMeta from "react-document-meta";
 
 function About(props) {
   return (
     <>
+      <DocumentMeta title="About Gaurab Chhetri - Web Developer" />
       <div className="header">
         <h1 className="center">About</h1>
         <h2 className="center hover-color">Get to know about me!</h2>

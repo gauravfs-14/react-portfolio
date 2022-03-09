@@ -1,9 +1,11 @@
 import React from "react";
 import "./contact.css";
+import DocumentMeta from "react-document-meta";
 
 function Contact() {
   return (
     <>
+      <DocumentMeta title="Contact Gaurab Chhetri - Web Developer" />
       <div className="header">
         <h1 className="center">Contact</h1>
         <h2 className="center hover-color">Reach to me from here!</h2>
