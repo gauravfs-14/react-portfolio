@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.490d99f2.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1a121e67.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1a121e67.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.3304df30.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.3304df30.js.map",
+    "static/js/2.67f89b80.chunk.js": "/react-portfolio/static/js/2.67f89b80.chunk.js",
+    "static/js/2.67f89b80.chunk.js.map": "/react-portfolio/static/js/2.67f89b80.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.490d99f2.chunk.css.map": "/react-portfolio/static/css/main.490d99f2.chunk.css.map",
+    "static/js/2.67f89b80.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.67f89b80.chunk.js.LICENSE.txt",
+    "static/media/fb.8fe534ee.jpg": "/react-portfolio/static/media/fb.8fe534ee.jpg",
+    "static/media/glass.db0ea7dd.jpg": "/react-portfolio/static/media/glass.db0ea7dd.jpg",
+    "static/media/gym-web.874f5c9b.png": "/react-portfolio/static/media/gym-web.874f5c9b.png",
+    "static/media/image_react.8c028249.png": "/react-portfolio/static/media/image_react.8c028249.png",
+    "static/media/insta.aacce00b.jpg": "/react-portfolio/static/media/insta.aacce00b.jpg",
+    "static/media/john.9725e602.jpg": "/react-portfolio/static/media/john.9725e602.jpg",
+    "static/media/john2.d4b13894.jpg": "/react-portfolio/static/media/john2.d4b13894.jpg",
+    "static/media/js-clock.b0b262d0.png": "/react-portfolio/static/media/js-clock.b0b262d0.png",
+    "static/media/news_react.21c42b10.png": "/react-portfolio/static/media/news_react.21c42b10.png",
+    "static/media/npl-web.5082a5b0.png": "/react-portfolio/static/media/npl-web.5082a5b0.png",
+    "static/media/portfolio.bb682bb2.png": "/react-portfolio/static/media/portfolio.bb682bb2.png",
+    "static/media/profile.ba0a96b4.jpg": "/react-portfolio/static/media/profile.ba0a96b4.jpg",
+    "static/media/rps-game.7eab8265.png": "/react-portfolio/static/media/rps-game.7eab8265.png",
+    "static/media/text.6d8b7686.jpg": "/react-portfolio/static/media/text.6d8b7686.jpg",
+    "static/media/twitter.f304cb74.jpg": "/react-portfolio/static/media/twitter.f304cb74.jpg",
+    "static/media/weather_react.c89c5293.png": "/react-portfolio/static/media/weather_react.c89c5293.png",
+    "static/media/yt.94127b42.jpg": "/react-portfolio/static/media/yt.94127b42.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3304df30.js",
+    "static/js/2.67f89b80.chunk.js",
+    "static/css/main.490d99f2.chunk.css",
+    "static/js/main.1a121e67.chunk.js"
+  ]
+}
