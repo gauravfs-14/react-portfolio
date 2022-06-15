@@ -55,7 +55,10 @@ function Home(props) {
             }}
           />
         </h2>
-        <a href="mailto:gchhetri734@gmail.com" className="center btn-home">
+        <a
+          href="mailto:contact@gaurabchhetri.com.np"
+          className="center btn-home"
+        >
           <button className="home-btn center">Message {props.fname}</button>
         </a>
       </div>
