@@ -15,7 +15,6 @@ function App() {
           <Switch>
             <Route
               path="/"
-              exact
               render={() => <Home fname="Gaurab" lname="Chhetri" />}
             />
             <Route path="/about" render={() => <About fname="Gaurab" />} />
