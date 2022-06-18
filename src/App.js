@@ -18,9 +18,15 @@ function App() {
               exact
               render={() => <Home fname="Gaurab" lname="Chhetri" />}
             />
-            <Route path="/about" render={() => <About fname="Gaurab" />} />
-            <Route path="/services" render={() => <Services />} />
-            <Route path="/contact" render={() => <Contact />} />
+            <Route
+              path="/react-portfolio/about"
+              render={() => <About fname="Gaurab" />}
+            />
+            <Route
+              path="/react-portfolio/services"
+              render={() => <Services />}
+            />
+            <Route path="/react-portfolio/contact" render={() => <Contact />} />
           </Switch>
         </div>
       </>

@@ -7,7 +7,7 @@ function Navbar(props) {
     <>
       <nav>
         <div className="logo">
-          <NavLink to="/">
+          <NavLink to="/react-portfolio">
             <b>{props.fname}</b>
           </NavLink>
         </div>
@@ -15,7 +15,7 @@ function Navbar(props) {
           <ul>
             <li>
               <NavLink
-                to="/"
+                to="/react-portfolio"
                 exact
                 activeStyle={{ color: "#61dafb" }}
                 onClick={togleLinks}
@@ -25,7 +25,7 @@ function Navbar(props) {
             </li>
             <li>
               <NavLink
-                to="/about"
+                to="/react-portfolio/about"
                 activeStyle={{ color: "#61dafb" }}
                 onClick={togleLinks}
               >
@@ -34,7 +34,7 @@ function Navbar(props) {
             </li>
             <li>
               <NavLink
-                to="/services"
+                to="/react-portfolio/services"
                 activeStyle={{ color: "#61dafb" }}
                 onClick={togleLinks}
               >
@@ -43,7 +43,7 @@ function Navbar(props) {
             </li>
             <li>
               <NavLink
-                to="/contact"
+                to="/react-portfolio/contact"
                 activeStyle={{ color: "#61dafb" }}
                 onClick={togleLinks}
               >
